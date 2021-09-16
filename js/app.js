@@ -8,20 +8,6 @@ const result = document.querySelector(".result-display");
 const toggle = document.querySelector(".toggle-mode");
 const root = document.querySelector(":root");
 
-let darkMode = true;
-toggle.addEventListener("click", () => {
-  darkMode = !darkMode;
-  if (darkMode) {
-    toggle.textContent = "☀️";
-    root.style.setProperty("--color-primary", "#ffbc42");
-    root.style.setProperty("--color-secondary", " #000001");
-  } else {
-    toggle.textContent = "⛅";
-    root.style.setProperty("--color-primary", " #000001");
-    root.style.setProperty("--color-secondary", "#ffbc42");
-  }
-});
-
 result.style.display = "none";
 form.addEventListener("submit", (e) => {
   e.preventDefault();

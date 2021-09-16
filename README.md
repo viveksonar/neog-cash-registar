@@ -1,7 +1,4 @@
-# CASH REGISTER
+## build-cash-register-manager
+### markTen - Make a cash register
 
-This app will accept two inputs one for the bill amount and other one is for cash paid. It will return the cash amount in form of diffrent currencies in order of high value to low value.
-
-> This is an assignment for neog.camp by Tanay Pratap.
-
-I used HTML5, CSS3, Vanilla JS for building this app.
+>A cash register manager which helps the user by telling how can he/she return the change to the customer with minimum number of notes.
